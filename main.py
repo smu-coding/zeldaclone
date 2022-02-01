@@ -8,8 +8,8 @@ class Game:
         pygame.init()
         self.screen = pygame.display.set_mode((WIDTH, HEIGTH))
         pygame.display.set_caption('Zelda Clone 1.0a')
-
         self.clock = pygame.time.Clock()
+        
         self.level = Level()
 
     def run(self):
